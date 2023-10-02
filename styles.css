@@ -1,17 +1,27 @@
+body{
+  background-color:darkolivegreen;
+}
 .c-item {
-  height: 480px;
+  height:80dvh; 
+ 
 }
 
 .c-img {
-  height: 100%;
-  object-fit: cover;
+ 
+  height: 80%;
+  margin-top: 2%;
+  object-fit:contain;
   filter: brightness(0.6);
 }
 
+
 .message
 {
-  font-family: 'Oleo Script Swash Caps', cursive;
+  /* font-family: 'Oleo Script Swash Caps', cursive; */
   /* font-family: 'Quicksand', sans-serif; */
 text-align: center;
-font-size:xx-large;
+/* font-size:xx-large; */
+color: aliceblue;
+text-transform: capitalize ;
 }
+
